@@ -1,4 +1,4 @@
-const weddingDate = new Date("2026-06-14T18:00:00+05:00");
+const weddingDate = new Date("2026-06-22T18:00:00+05:00");
 
 const invitation = document.getElementById("invitation");
 const revealButton = document.getElementById("revealInvitation");

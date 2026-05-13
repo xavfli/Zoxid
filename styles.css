@@ -288,13 +288,13 @@ button,
 }
 
 .envelope__seal::before {
-  content: "BN";
+  content: "Z&D";
   position: absolute;
   inset: 0;
   display: grid;
   place-items: center;
   font-family: "Great Vibes", cursive;
-  font-size: 3.2rem;
+  font-size: 2.6rem;
   color: rgba(134, 106, 93, 0.96);
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.62);
   transform: translateY(-3px);
