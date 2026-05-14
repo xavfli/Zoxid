@@ -288,16 +288,22 @@ button,
 }
 
 .envelope__seal::before {
-  content: "Z&D";
+  content: "SH & G";
   position: absolute;
   inset: 0;
   display: grid;
   place-items: center;
   font-family: "Great Vibes", cursive;
-  font-size: 2.6rem;
+  font-size: 1.4rem;
+  font-weight: 400;
+  letter-spacing: 0.08em;
   color: rgba(134, 106, 93, 0.96);
-  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.62);
+  text-shadow: 
+    0 1px 0 rgba(255, 255, 255, 0.62),
+    0 2px 3px rgba(100, 80, 70, 0.15);
   transform: translateY(-3px);
+  font-style: italic;
+  white-space: nowrap;
 }
 
 .envelope__seal::after {
@@ -442,7 +448,7 @@ button,
 .envelope__names {
   text-align: center;
   font-family: "Cormorant Garamond", serif;
-  font-size: clamp(2rem, 7vw, 3rem);
+  font-size: clamp(1.2rem, 4vw, 1.8rem);
   line-height: 0.94;
   color: var(--sage-deep);
 }
