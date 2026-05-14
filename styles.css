@@ -288,7 +288,7 @@ button,
 }
 
 .envelope__seal::before {
-  content: "SH & G";
+  content: "Z & D";
   position: absolute;
   inset: 0;
   display: grid;
